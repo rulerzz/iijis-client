@@ -1,0 +1,11 @@
+li{
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+h1{
+  font-size: 52px !important;
+    margin: 0 0 32px !important;
+    padding: 0 0 22px !important;
+    line-height: 62px !important;
+    position: relative !important;
+}
