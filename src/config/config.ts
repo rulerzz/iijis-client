@@ -7,6 +7,6 @@ export class config{
   public contactAddress = "New Delhi, India";
   public contactEmail = "editor@iijis.in";
   public contactPhone = "+91 98114-54963";
-  public apiPath = "http://165.22.216.152/v1/";
+ // public apiPath = "http://165.22.216.152/v1/";
   //public apiPath = "http://localhost:3000/v1/"
 }
