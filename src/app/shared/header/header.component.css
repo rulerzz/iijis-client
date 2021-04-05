@@ -4,3 +4,12 @@
 .sj-userloginarea{
   display: block;
 }
+.sj-loginusername span{
+  color : #fff;
+}
+.sj-userloginarea > a > i {
+  color: #fff;
+}
+.sj-loginusername h3{
+  color : #fff;
+}

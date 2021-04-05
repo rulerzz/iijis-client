@@ -5,7 +5,7 @@
  is the file you need to edit to change the look of the
  theme.
  However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -19,7 +19,7 @@
  10.	Grid
 */
 /* =============================================
-			Theme Reset Style					
+			Theme Reset Style
 ============================================= */
 @import url(https://fonts.googleapis.com/css?family=Abril+Fatface|Quicksand:300,400,500,700);
 * {
@@ -237,7 +237,7 @@ p ins { color: #666; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
 /* =============================================
-			Theme Custom Select					
+			Theme Custom Select
 ============================================= */
 .sj-select {
 	color:#666;
@@ -269,7 +269,7 @@ address { font-style: italic; }
 }
 .sj-select select option { color:#666; }
 /* =============================================
-		Theme Custom CheckBox Radio				
+		Theme Custom CheckBox Radio
 ============================================= */
 .sj-radio,
 .sj-radio label,
@@ -309,7 +309,7 @@ address { font-style: italic; }
 .sj-radio input[type=radio]+ label:hover:before,
 .sj-radio input[type=radio]:checked + label:before{content:'\f192';}
 /* =============================================
-			Theme Global Elements				
+			Theme Global Elements
 ============================================= */
 .sj-haslayout {
 	width:100%;
@@ -719,7 +719,7 @@ li.sj-rss a { background:#ff6600; }
 	position:relative;
 }
 /* =============================================
-			Theme Pagination Style				
+			Theme Pagination Style
 ============================================= */
 .sj-pagination {
 	width:100%;
@@ -780,7 +780,7 @@ li.sj-rss a { background:#ff6600; }
 .sj-pagination ul li.sj-nextpage a:hover:after { right:2px; }
 .sj-pagination ul li.sj-prevpage a:hover:after { left:2px; }
 /* =============================================
-			Theme BreadCrumb Style				
+			Theme BreadCrumb Style
 ============================================= */
 .sj-breadcrumb {
 	margin:0;
@@ -819,7 +819,7 @@ li.sj-rss a { background:#ff6600; }
 	display:block;
 }
 /* =============================================
-			Theme Styling						
+			Theme Styling
 ============================================= */
 .sj-home {}
 .sj-wrapper {overflow:hidden;}
@@ -832,8 +832,7 @@ li.sj-rss a { background:#ff6600; }
 .sj-contentwrapper{
 	width: 100%;
 	margin:0 auto;
-	padding:4px 0 0;
-	max-width:1270px;
+	padding:0 0 0;
 	background: #fff;
 	overflow: hidden;
 	position:relative;
@@ -861,11 +860,11 @@ li.sj-rss a { background:#ff6600; }
 	margin:0 30px 30px 0;
 }
 /* =============================================
-			Header Style					
+			Header Style
 ============================================= */
 .sj-header {
 	z-index: 10;
-	background:#fcfcfc;
+	background:#727270;
 	position: relative;
 	border-bottom:1px solid #ddd;
 }
@@ -901,7 +900,7 @@ body.sj-home .sj-header{border:0;}
 	position:relative;
 }
 .sj-navigation > ul > li > a{
-	color:#636c77;
+	color:#ffffff;
 	display: block;
 	border-radius:6px;
 	position:relative;
@@ -928,7 +927,7 @@ body.sj-home .sj-header{border:0;}
 	content:'\f107';
 	line-height:10px;
 	position:absolute;
-	
+
 }
 .sub-menu,
 .mega-menu,
@@ -972,7 +971,7 @@ body.sj-home .sj-header{border:0;}
 .children li a{
 	color:#636c77;
 	display:block;
-	padding:13px 30px;
+	padding:13px 30px;636c77
 }
 .sub-menu li.menu-item-has-children a,
 .children li.menu-item-has-children a,
@@ -1118,7 +1117,7 @@ body.sj-home .sj-header{border:0;}
 	list-style-type:none;
 }
 .sj-loging li a{
-	color:#666;
+	color:#fff;
 	display:block;
 }
 .sj-navigationarea{
@@ -1226,7 +1225,7 @@ body.sj-userlogin .sj-userloginarea{display:block;}
 body.sj-userlogin .sj-topbar .sj-socialiconssimple{padding:14px 0;}
 body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 /* =============================================
-			Home Banner Style					
+			Home Banner Style
 ============================================= */
 .sj-bannercontent{
 	width:100%;
@@ -1310,7 +1309,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	display: block;
 }
 /* =============================================
-			Greeting &amp; Welcome Style		
+			Greeting &amp; Welcome Style
 ============================================= */
 .sj-welcomegreeting{
 	width:100%;
@@ -1417,7 +1416,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-btnvideo:hover i{color:#fff;}
 /* =============================================
-			Editors Choice Style		
+			Editors Choice Style
 ============================================= */
 .sj-borderheading{
 	width: 100%;
@@ -1559,7 +1558,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	line-height:30px;
 }
 /* =============================================
-			Previous Issues Style				
+			Previous Issues Style
 ============================================= */
 .sj-previousissues{
 	width:100%;
@@ -1622,7 +1621,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-smallpost .sj-postcontent .sj-head{padding:0;}
 .sj-smallpost .sj-postcontent .sj-head .sj-username{margin:0 0 6px;}
 /* =============================================
-			Upcoming Books Style				
+			Upcoming Books Style
 ============================================= */
 .sj-upcomingbooks,
 .sj-upcomingbooks .item{
@@ -1686,7 +1685,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	line-height:20px;
 }
 /* =============================================
-			News Articles Style					
+			News Articles Style
 ============================================= */
 .sj-newsposts,
 .sj-newsarticle,
@@ -1769,7 +1768,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-newscontent .sj-description p{margin:0;}
 .sj-newscontent .sj-description p a{text-decoration:none;}
 /* =============================================
-			Sidebar Style						
+			Sidebar Style
 ============================================= */
 .sj-sidebar{
 	width:100%;
@@ -1815,7 +1814,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	padding:6px 0 6px 15px;
 }
 .sj-widgetcontent ul li a{
-	color:#636c77;
+	color:#fff;
 	display:block;
 }
 .sj-widgetcontent ul li.sj-more {padding-left:0;}
@@ -1912,9 +1911,10 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	line-height:30px;
 }
 /* =============================================
-			Footer Style						
+			Footer Style
 ============================================= */
-.sj-footer{background:#fcfcfc;}
+.sj-footer{background:#727270;}
+.sj-footer *{color:#fff;}
 .sj-footercolumns{
 	width:100%;
 	float:left;
@@ -1962,7 +1962,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	margin:-2px 0 0;
 	border-radius:50%;
 	position:absolute;
-	background:#636c77;
+	background:#fff;
 }
 .sj-fcol .sj-widgetcontent ul li.sj-more:before{display:none;}
 .sj-widgetresources,
@@ -2021,10 +2021,10 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	font-weight:500;
 }
 /* ==========================================================================================
-									Inner Pages Style										
+									Inner Pages Style
 ========================================================================================== */
 /* =============================================
-			Inner Banner Style					
+			Inner Banner Style
 ============================================= */
 .sj-innerbanner{
 	width:100%;
@@ -2045,7 +2045,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	line-height:16px;
 }
 /* =============================================
-			About Us Style						
+			About Us Style
 ============================================= */
 .sj-aboutus{
 	width:100%;
@@ -2142,7 +2142,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-ouraim .sj-description p:last-child{margin:0;}
 /* =============================================
-			Articles Style						
+			Articles Style
 ============================================= */
 .sj-articles{
 	width:100%;
@@ -2293,7 +2293,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-filterbtns .sj-btn + .sj-btn{margin:0 0 0 10px;}
 .sj-filterbtns .sj-btn:hover:before{background:#eb5463;}
 /* =============================================
-			Article Detail Style				
+			Article Detail Style
 ============================================= */
 .sj-articledetail{
 	width:100%;
@@ -2492,7 +2492,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	line-height:26px;
 }
 /* =============================================
-			News Grid Style						
+			News Grid Style
 ============================================= */
 .sj-newsgrid,
 .sj-newsgridholder{
@@ -2502,7 +2502,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-newsgrid .sj-formsortitems{padding-top:0;}
 .sj-newsgridholder .sj-newsarticle{padding:15px 0;margin: 0;}
 /* =============================================
-			News List Style						
+			News List Style
 ============================================= */
 .sj-newslists{
 	width:100%;
@@ -2524,7 +2524,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	line-height:26px;
 }
 /* =============================================
-			News Detail Style					
+			News Detail Style
 ============================================= */
 .sj-newsdetail{
 	width:100%;
@@ -2719,7 +2719,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-formleavecomment .sj-btn{padding:0 60px;}
 /* =============================================
-			Author Guideline Style				
+			Author Guideline Style
 ============================================= */
 .sj-authorguidelines{
 	width:100%;
@@ -2786,7 +2786,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-manuscriptcontent .sj-description p{margin:0;}
 .sj-manuscritp:nth-child(even) .sj-manuscriptimg{float:left;}
 /* =============================================
-			404 Error Style						
+			404 Error Style
 ============================================= */
 .sj-404error,
 .sj-404content{
@@ -2834,7 +2834,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-gobackhome a{color:#5e9cea;}
 /* =============================================
-			Coming Soon Style					
+			Coming Soon Style
 ============================================= */
 .sj-comingsoonpage{
 	background:
@@ -2998,7 +2998,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	font-weight:400;
 }
 /* =============================================
-			Login Register Style				
+			Login Register Style
 ============================================= */
 .sj-widgetlogin .sj-widgetcontent{padding:0 10px;}
 .sj-formlogin .sj-forgotpass .sj-checkbox{
@@ -3125,7 +3125,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	background:#636c77;
 }
 /* =============================================
-			Issues Years Style					
+			Issues Years Style
 ============================================= */
 .sj-accordion,
 .sj-issuesyears{
@@ -3225,7 +3225,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	font-style:normal;
 }
 /* =============================================
-			Issues Weeks Style					
+			Issues Weeks Style
 ============================================= */
 .sj-issuesweeks{
 	width:100%;
@@ -3262,7 +3262,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	-moz-transform: translate(0px, 0px) scale(1, 1);
 	-o-transform: translate(0px, 0px) scale(1, 1);
 	-ms-transform: translate(0px, 0px) scale(1, 1);
-	transform: translate(0px, 0px) scale(1, 1); 
+	transform: translate(0px, 0px) scale(1, 1);
 	opacity: 1;
 }
 .sj-searcharea input[type="search"] {
@@ -3377,7 +3377,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	width:100%;
 	float:left;
 	color:#767676;
-	margin-top:10px; 
+	margin-top:10px;
 	font-size:12px;
 	line-height:12px;
 }
@@ -3409,7 +3409,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-submitdetails{
 	float: left;
 	width: 100%;
-	padding:30px 40px; 
+	padding:30px 40px;
 }
 .sj-submitdetails span{
 	display: block;
@@ -3422,7 +3422,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-submitdetails a.sj-btn{
 	width: 100%;
-	margin-top:10px; 
+	margin-top:10px;
 }
 
 .sj-addarticleholdcontent{
@@ -3439,12 +3439,12 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-addarticlehold{
 	float: left;
 	width: 100%;
-	padding:30px; 
+	padding:30px;
 }
 .sj-formarticle fieldset{
 	margin:-5px;
 	width: auto;
-	float: none; 
+	float: none;
 }
 .sj-formarticle fieldset .form-group{
 	margin:0;
@@ -3457,12 +3457,12 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-formarticle fieldset .form-group.sj-authorholdvtwo{
 	width: 60%;
 	position: relative;
-	padding-right:55px; 
+	padding-right:55px;
 }
 .sj-adddelbtns{
 	top: 50%;
 	right: 0;
-	margin:-20px 4px 0 0; 
+	margin:-20px 4px 0 0;
 	position: absolute;
 }
 .sj-adddelbtns .sj-addbtn{float: right;}
@@ -3573,7 +3573,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	padding:0 0 0 15px;
 }
 /* =============================================
-			User Navbar Style				
+			User Navbar Style
 ============================================= */
 .sj-usernav{
 	right:0;
@@ -3669,7 +3669,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	visibility:visible;
 }
 /* =============================================
-			Chosen Style				
+			Chosen Style
 ============================================= */
 .sj-categorydetails .sj-select{
 	border:1px solid #ddd;
@@ -3721,14 +3721,14 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	border-top: 1px solid #ddd;
 }
 /* ==========================================================
-			Assign Category Style				
+			Assign Category Style
 ========================================================== */
 .sj-assignuserimg{
 	margin: 0;
 	float: left;
 	width: 50px;
 	height: 50px;
-	margin-right:10px; 
+	margin-right:10px;
 	border-radius: 5px;
 }
 .sj-assignuserimg img{
@@ -3739,7 +3739,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-allcategorysvtwo li .sj-title{padding:4px 0;}
 .sj-allcategorysvtwo li .sj-title h3 span{
 	display: block;
-	margin-top:5px; 
+	margin-top:5px;
 	line-height: 18px !important;
 }
 .sj-userdropdown{
@@ -3755,13 +3755,13 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	list-style-type:none;
 }
 .sj-userdropdown > li{
-	border-radius:3px;	
+	border-radius:3px;
 	padding: 0;
 	border:1px solid #eff2f5;
 }
 .sj-userdropdown > li:first-child{
 	padding:0;
-	border-radius:5px; 
+	border-radius:5px;
 	border:1px solid #ddd !important;
 }
 .sj-userdropdown > li + li{border-right:1px solid #eff2f5;}
@@ -3841,9 +3841,9 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	font-size: 12px;
 	text-align: left;
 	line-height: 35px;
-	font-weight: 400; 
+	font-weight: 400;
 	position: relative;
-	padding:0 30px 0 10px; 
+	padding:0 30px 0 10px;
 }
 .sj-userdropdownmanu .sj-checkbox input[type=checkbox] + label span{
 	text-align: left;
@@ -3895,15 +3895,15 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 .sj-addremove{
 	width: auto;
 	float: right;
-	padding:11px 0; 
-	margin-left:10px; 
+	padding:11px 0;
+	margin-left:10px;
 }
 .sj-allcategorysvtwo > li.sj-deleteuser .sj-title{margin: 0 !important; }
 .sj-allcategorys.sj-allcategorysvtwo > li.sj-deleteuser .sj-deletenotifications{padding:6px 0; }
 .sj-allcategorys.sj-allcategorysvtwo > li.sj-deleteuser,
 .sj-allcategorys.sj-allcategorysvtwo > li{padding:15px 20px; }
 /* =============================================
-			Checkout Style				
+			Checkout Style
 ============================================= */
 .sj-checkoutjournal{
 	width: 100%;
@@ -4008,7 +4008,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-checkpaymentmethod .sj-title h3{
 	margin: 0;
-	padding:4px 0; 
+	padding:4px 0;
 	font-size: 24px;
 	line-height: 26px;
 	display: inline-block;
@@ -4016,13 +4016,13 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-checkpaymentmethod .sj-rightarea figure{margin: 0;}
 .sj-paymentmethod{
-	list-style:none; 
+	list-style:none;
 	margin: 0 -15px 0;
 }
 .sj-paymentmethod li{
 	width: 50%;
 	float: left;
-	padding:0 15px; 
+	padding:0 15px;
 	list-style-type: none;
 }
 .sj-paymentmethod li a{
@@ -4056,7 +4056,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 	color: #222;
 	font-size: 16px;
 	line-height: 24px;
-	padding-left:30px; 
+	padding-left:30px;
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -4068,7 +4068,7 @@ body.sj-userlogin .sj-topbar .sj-languages{margin:4px 0;}
 }
 .sj-checkpaymentmethod .sj-title{margin-bottom:30px; }
 /*==============================================
-			Preloader Style						
+			Preloader Style
 ==============================================*/
 .preloader-outer {
 	top: 0;

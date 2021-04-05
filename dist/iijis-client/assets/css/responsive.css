@@ -80,7 +80,7 @@
 	}
 	.sj-navigation ul li + li{border-top:1px solid #ddd;}
 	.sj-navigation > ul > li.menu-item-has-children > a:before{display: none;}
-	.sj-navigation ul li a{padding:10px 20px;}
+	.sj-navigation ul li a{padding:10px 20px;color:#7b4949;}
 	.sub-menu,
 	.mega-menu,
 	.children{
@@ -236,7 +236,7 @@
 	.sj-categorysrightarea{
 		width: 100%;
 		float: left;
-		margin-top:20px; 
+		margin-top:20px;
 	}
 	.sj-categorysrightarea a.sj-pencilbtn{margin: 0;}
 	.sj-managesessionform fieldset .form-group.sj-inputwithicon{
