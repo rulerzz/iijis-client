@@ -23,15 +23,16 @@ export class CurrentComponent implements OnInit {
       }
       else{
         this.issue = data.body.data;
-        this.loadimage();
+        this.loadimage(data.body.data.id);
       }
 
     });
   }
-  loadimage(){
-    this.submissionService.getImage(this.issue.id).subscribe((data)=>{
+  loadimage(id){
+    this.submissionService.getImage(id).subscribe((data)=>{
       let objectURL = URL.createObjectURL(data);
       this.imageToShow = this.sanitizer.bypassSecurityTrustUrl(objectURL);
+      console.log(this.imageToShow)
     }, (err) => {
       console.log(err)
     })

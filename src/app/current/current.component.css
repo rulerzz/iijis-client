@@ -9,3 +9,6 @@ h1{
     line-height: 62px !important;
     position: relative !important;
 }
+img{
+  max-width: 403px;
+}

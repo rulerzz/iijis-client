@@ -53,6 +53,9 @@ export class SubmissionService {
   current(): Observable<HttpResponse<any>>{
     return this.http.get<any>('submission/current' , { observe : 'response'});
   }
+  releases(): Observable<HttpResponse<any>>{
+    return this.http.get<any>('submission/allreleases' , { observe : 'response'});
+  }
   getImage(id){
     return this.http.get('submission/getimage/' + id, { responseType: 'blob' });
   }

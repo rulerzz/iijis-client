@@ -1,3 +1,4 @@
+<div class="container p-0">
 <!--************************************
 					Home Banner Start
 			*************************************-->
@@ -15,9 +16,9 @@
 						</div>
 						<div class="col-12 col-sm-12 col-md-6 col-lg-6">
 							<div class="sj-bannercontent">
-								<h1>{{issue.title}}</h1>
+								<h1>{{issue?.title}}</h1>
 								<div class="sj-description">
-									<p>{{issue.description}}</p>
+									<p>{{issue?.description}}</p>
 								</div>
 							</div>
 
@@ -32,3 +33,4 @@
 					Home Banner End
 			*************************************-->
       <h3 *ngIf="issue === null" class="text-center">No Releases Found :(</h3>
+    </div>
