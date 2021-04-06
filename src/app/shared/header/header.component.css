@@ -13,3 +13,20 @@
 .sj-loginusername h3{
   color : #fff;
 }
+.heading{
+  display: inline;
+    font-size: 24px;
+    /* padding-left: 74px; */
+    width: auto;
+    position: relative;
+    left: 20px;
+    top: 5px;
+    font-weight: 500;
+    color:#fdb532;
+}
+@media only screen and (max-width: 768px) {
+  .sj-languagelogin {
+    float: right;
+    margin-top: 15px;
+}
+}
