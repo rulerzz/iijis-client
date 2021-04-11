@@ -15,7 +15,7 @@ export class Urlnterceptor implements HttpInterceptor {
 
   intercept(request: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> {
     let newrequest = request.clone({
-      url : this.config.apiPath + request.url
+      url : this.config.apiPath + request.url,
     });
     return next.handle(newrequest);
   }

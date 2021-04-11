@@ -22,6 +22,12 @@ export class SubmissionService {
     formData.append('user', user);
     return this.http.post<any>('submission/profile', formData, { observe : 'response' });
   }
+  uploadsubmissiondoc(file : File, user : string): Observable<HttpResponse<any>>{
+    const formData: FormData = new FormData();
+    formData.append('file', file, file.name);
+    formData.append('user', user);
+    return this.http.post<any>('submission/document', formData, { observe : 'response' });
+  }
   uploadreleaseimage(file : File): Observable<HttpResponse<any>>{
     const formData: FormData = new FormData();
     formData.append('file', file, file.name);

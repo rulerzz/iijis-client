@@ -40,7 +40,9 @@ export class SubmissionsComponent implements OnInit {
     if(localStorage.getItem('userdata') !== null) {
       this.loggedin = true;
       this.userdata = JSON.parse(localStorage.getItem('userdata'));
-      this.loadImage();
+      if(this.userdata.file !== undefined){
+        this.loadImage();
+      }
     }
     else{
       this.loggedin = false;
@@ -91,12 +93,14 @@ export class SubmissionsComponent implements OnInit {
   showdetails(submission){
     this.toggle = !this.toggle;
     this.submission = submission;
-    this.userService.getImage(this.submission.user.id).subscribe((data)=>{
-      let objectURL = URL.createObjectURL(data);
-      this.image = this.sanitizer.bypassSecurityTrustUrl(objectURL);
-    }, (err) => {
-      console.log(err)
-    })
+    if(this.submission.user.file !== undefined){
+      this.userService.getImage(this.submission.user.id).subscribe((data)=>{
+        let objectURL = URL.createObjectURL(data);
+        this.image = this.sanitizer.bypassSecurityTrustUrl(objectURL);
+      }, (err) => {
+        console.log(err)
+      })
+    }
   }
   downloadfile(submission){
     window.open(this.config.apiPath + 'submission/file/' + submission.id , '_blank');

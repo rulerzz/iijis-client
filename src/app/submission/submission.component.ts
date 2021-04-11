@@ -236,11 +236,11 @@ export class SubmissionComponent implements OnInit {
    this.uploadFileToActivity();
   }
   uploadFileToActivity() {
-    this.submissionService.uploadsubmissionimage(this.file, this.incomplete.id).subscribe(data => {
+    this.submissionService.uploadsubmissiondoc(this.file, this.incomplete.id).subscribe(data => {
       // do something, if upload success
       this.uploaded = true;
       }, error => {
-        console.log(error);
+        this.toastr.error(error + ' i.e doc docx rtf and pdf', 'Format Error!');
       });
   }
   refresh(){
